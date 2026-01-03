@@ -28,9 +28,9 @@ return (
         <div className="booth-body">
             <div className="coin-slot">
                 {!coinInserted ? (
-                    <p className="insert-text" onClick ={handleInsertClick}>Insert
+                    <p className="insert-text" onClick ={handleInsertClick}>Hey,
                     <br/>
-                    coin here
+                    click here
                     </p>
                 ):(
                     <div className="coin" onClick ={handleCoinClick}></div>
